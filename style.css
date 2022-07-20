@@ -2,3 +2,26 @@ html, body {
     margin: 0;
     padding: 0;
 }
+.navList
+{
+    list-style : None;
+    display: flex;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    color: white;
+}
+.navList > li {
+    padding: 10px;
+
+}
+.bb
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
